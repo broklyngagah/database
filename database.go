@@ -3,10 +3,10 @@ package database
 import (
 	"fmt"
 	as "github.com/aerospike/aerospike-client-go"
+	"github.com/broklyngagah/database/aerospike"
+	"github.com/broklyngagah/database/mongo"
+	"github.com/broklyngagah/database/mysql"
 	"github.com/jinzhu/gorm"
-	"gojagogo/shared/database/aerospike"
-	"gojagogo/shared/database/mongo"
-	"gojagogo/shared/database/mysql"
 	"gopkg.in/mgo.v2"
 )
 
